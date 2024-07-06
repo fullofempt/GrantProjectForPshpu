@@ -9,6 +9,8 @@ abstract class Routes {
   static const VIBORZAD = _Paths.VIBORZAD;
   static const SPLASH = _Paths.SPLASH;
   static const TEST = _Paths.TEST;
+  static const SPRAVKA = _Paths.SPRAVKA;
+  static const RAZRAB = _Paths.RAZRAB;
 }
 
 abstract class _Paths {
@@ -19,4 +21,6 @@ abstract class _Paths {
   static const VIBORZAD = '/viborzad';
   static const SPLASH = '/splash';
   static const TEST = '/test';
+  static const SPRAVKA = '/spravka';
+  static const RAZRAB = '/razrab';
 }

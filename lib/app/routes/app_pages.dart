@@ -1,13 +1,18 @@
 import 'package:get/get.dart';
 
-// import '../modules/history/bindings/history_binding.dart';
-// import '../modules/history/views/history_view.dart';
 import '../modules/main/bindings/main_binding.dart';
 import '../modules/main/views/main_view.dart';
-// import '../modules/registration/bindings/registration_binding.dart';
-// import '../modules/registration/views/registration_view.dart';
+import '../modules/razrab/bindings/razrab_binding.dart';
+import '../modules/razrab/views/razrab_view.dart';
 import '../modules/splash/bindings/splash_binding.dart';
 import '../modules/splash/views/splash_view.dart';
+import '../modules/spravka/bindings/spravka_binding.dart';
+import '../modules/spravka/views/spravka_view.dart';
+
+// import '../modules/history/bindings/history_binding.dart';
+// import '../modules/history/views/history_view.dart';
+// import '../modules/registration/bindings/registration_binding.dart';
+// import '../modules/registration/views/registration_view.dart';
 // import '../modules/test/bindings/test_binding.dart';
 // import '../modules/test/views/test_view.dart';
 // import '../modules/viborzad/bindings/viborzad_binding.dart';
@@ -51,5 +56,15 @@ class AppPages {
     //   page: () => TestScreen(),
     //   binding: TestBinding(),
     // ),
+    GetPage(
+      name: _Paths.SPRAVKA,
+      page: () => const SpravkaView(),
+      binding: SpravkaBinding(),
+    ),
+    GetPage(
+      name: _Paths.RAZRAB,
+      page: () => const RazrabView(),
+      binding: RazrabBinding(),
+    ),
   ];
 }

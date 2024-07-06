@@ -10,6 +10,7 @@ import 'package:testik/app/modules/history/views/history_view.dart';
 import 'package:testik/app/modules/registration/views/registration_view.dart';
 import 'package:testik/app/modules/test/views/test_view.dart';
 import 'package:testik/app/modules/viborzad/views/viborzad_view.dart';
+import 'package:testik/app/routes/app_pages.dart';
 
 import '../controllers/main_controller.dart';
 
@@ -159,7 +160,7 @@ class _MainScreenState extends State<MainScreen> {
                     ],
                   ),
                 )),
-            SizedBox(height: 20),
+            SizedBox(height: 15),
             Container(
               margin: EdgeInsets.only(top: 10.0),
               width: 350,
@@ -203,7 +204,7 @@ class _MainScreenState extends State<MainScreen> {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 15),
             Container(
               margin: EdgeInsets.only(top: 10.0),
               width: 350,
@@ -241,6 +242,94 @@ class _MainScreenState extends State<MainScreen> {
                     SizedBox(width: 16),
                     Text(
                       "История результатов",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 22,
+                          fontWeight: FontWeight.w600,
+                          shadows: [
+                            Shadow(
+                              blurRadius: 2.0,
+                              color: Colors.grey,
+                              offset: Offset(2.0, 2.0),
+                            )
+                          ]),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(height: 15),
+            Container(
+              margin: EdgeInsets.only(top: 10.0),
+              width: 350,
+              height: 60,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 255, 206, 148),
+                  elevation: 4,
+                  shadowColor: Colors.grey,
+                ),
+                onPressed: () {
+                  Get.toNamed(Routes.SPRAVKA);
+                },
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/yabloko.png',
+                      width: 40,
+                      height: 40,
+                    ),
+                    SizedBox(width: 16),
+                    Text(
+                      "Справка",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 22,
+                          fontWeight: FontWeight.w600,
+                          shadows: [
+                            Shadow(
+                              blurRadius: 2.0,
+                              color: Colors.grey,
+                              offset: Offset(2.0, 2.0),
+                            )
+                          ]),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(height: 15),
+            Container(
+              margin: EdgeInsets.only(top: 10.0),
+              width: 350,
+              height: 60,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 255, 206, 148),
+                  elevation: 4,
+                  shadowColor: Colors.grey,
+                ),
+                onPressed: () {
+                  Get.toNamed(Routes.RAZRAB);
+                },
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/yabloko.png',
+                      width: 40,
+                      height: 40,
+                    ),
+                    SizedBox(width: 16),
+                    Text(
+                      "Разработчики",
                       style: TextStyle(
                           color: Color.fromARGB(255, 255, 255, 255),
                           fontSize: 22,

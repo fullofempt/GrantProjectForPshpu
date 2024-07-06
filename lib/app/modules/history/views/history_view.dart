@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:testik/app/models/testresultModel.dart';
+import 'package:testik/app/routes/app_pages.dart';
 
 import '../controllers/history_controller.dart';
 
@@ -33,7 +34,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
       _filteredResults = widget.results.where((result) {
         return result.childFullName.toLowerCase().contains(query) ||
             result.category.toLowerCase().contains(query) ||
-            DateFormat('yyyy-MM-dd – kk:mm').format(result.dateTime).contains(query);
+            DateFormat('yyyy-MM-dd – kk:mm')
+                .format(result.dateTime)
+                .contains(query);
       }).toList();
     });
   }
@@ -55,7 +58,37 @@ class _HistoryScreenState extends State<HistoryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("История")),
+      backgroundColor: const Color.fromARGB(255, 198, 218, 157),
+      appBar: AppBar(
+        elevation: 4,
+        shadowColor: Colors.grey,
+        backgroundColor: const Color.fromARGB(255, 255, 206, 148),
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back,
+            color: Color.fromARGB(255, 255, 255, 255),
+            size: 32,
+            shadows: [
+              Shadow(
+                blurRadius: 3.0,
+                color: Colors.grey,
+                offset: Offset(1.0, 1.0),
+              ),
+            ],
+          ),
+          onPressed: () {
+            Get.toNamed(Routes.MAIN);
+          },
+        ),
+        flexibleSpace: Center(
+          child: Image.asset(
+            'assets/images/yar.png',
+            width: 120,
+            height: 120,
+            fit: BoxFit.contain,
+          ),
+        ),
+      ),
       body: Column(
         children: [
           Padding(
@@ -63,9 +96,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
             child: TextField(
               controller: _searchController,
               decoration: InputDecoration(
-                labelText: "Поиск",
-                border: OutlineInputBorder(),
-                suffixIcon: Icon(Icons.search),
+                labelText: 'Поиск',
+                border: UnderlineInputBorder(
+                  borderSide: const BorderSide(
+                      color: Color.fromARGB(255, 255, 206, 148)),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderSide: const BorderSide(
+                      color: Color.fromARGB(255, 255, 206, 148)),
+                ),
+                fillColor: Colors.grey[200],
+                filled: true,
               ),
             ),
           ),
@@ -74,10 +115,12 @@ class _HistoryScreenState extends State<HistoryScreen> {
               itemCount: _filteredResults.length,
               itemBuilder: (context, index) {
                 TestResult result = _filteredResults[index];
-                String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(result.dateTime);
+                String formattedDate =
+                    DateFormat('yyyy-MM-dd – kk:mm').format(result.dateTime);
                 return ListTile(
                   title: Text(result.childFullName),
-                  subtitle: Text("Категория: ${result.category}, Правильных ответов: ${result.correctAnswers}, Дата: $formattedDate"),
+                  subtitle: Text(
+                      "Категория: ${result.category}, Правильных ответов: ${result.correctAnswers}, Дата: $formattedDate"),
                   trailing: IconButton(
                     icon: Icon(Icons.delete),
                     onPressed: () => _deleteResult(index),
