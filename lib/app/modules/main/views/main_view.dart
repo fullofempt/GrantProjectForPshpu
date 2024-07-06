@@ -108,54 +108,157 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Container(
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            Container(
+                margin: EdgeInsets.only(top: 10.0),
+                width: 350,
+                height: 60,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    backgroundColor: Color.fromARGB(255, 255, 206, 148),
+                    elevation: 4,
+                    shadowColor: Colors.grey,
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            RegistrationScreen(onRegister: _registerChild),
+                      ),
+                    );
+                  },
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Image.asset(
+                        'assets/images/plus.png',
+                        width: 25,
+                        height: 25,
+                      ),
+                      SizedBox(width: 16),
+                      Text(
+                        "Регистрация ребёнка",
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 255, 255, 255),
+                            fontSize: 22,
+                            fontWeight: FontWeight.w600,
+                            shadows: [
+                              Shadow(
+                                blurRadius: 2.0,
+                                color: Colors.grey,
+                                offset: Offset(2.0, 2.0),
+                              )
+                            ]),
+                      ),
+                    ],
+                  ),
+                )),
+            SizedBox(height: 20),
+            Container(
               margin: EdgeInsets.only(top: 10.0),
               width: 350,
               height: 60,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20),
-                    ),backgroundColor: Color.fromARGB(255, 255, 206, 148),
-                    elevation: 4,
-                    shadowColor: Colors.grey,),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          RegistrationScreen(onRegister: _registerChild),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 255, 206, 148),
+                  elevation: 4,
+                  shadowColor: Colors.grey,
+                ),
+                onPressed: children.isNotEmpty
+                    ? () => _selectCategory(children.last)
+                    : null,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/yabloko.png',
+                      width: 40,
+                      height: 40,
                     ),
-                  );
-                },
-                child: Text("Регистрация ребёнка"),
-              )),
-          ElevatedButton(
-            onPressed: children.isNotEmpty
-                ? () => _selectCategory(children.last)
-                : null,
-            child: Text("Пройти тест"),
-          ),
-          ElevatedButton(
-            onPressed: results.isNotEmpty
-                ? () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => HistoryScreen(
-                          results: results,
-                          onUpdateResults: _updateResults,
-                        ),
-                      ),
-                    );
-                  }
-                : null,
-            child: Text("История результатов"),
-          ),
-        ],
+                    SizedBox(width: 16),
+                    Text(
+                      "Пройти тест",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 22,
+                          fontWeight: FontWeight.w600,
+                          shadows: [
+                            Shadow(
+                              blurRadius: 2.0,
+                              color: Colors.grey,
+                              offset: Offset(2.0, 2.0),
+                            )
+                          ]),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(height: 20),
+            Container(
+              margin: EdgeInsets.only(top: 10.0),
+              width: 350,
+              height: 60,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 255, 206, 148),
+                  elevation: 4,
+                  shadowColor: Colors.grey,
+                ),
+                onPressed: results.isNotEmpty
+                    ? () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HistoryScreen(
+                              results: results,
+                              onUpdateResults: _updateResults,
+                            ),
+                          ),
+                        );
+                      }
+                    : null,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/yabloko.png',
+                      width: 40,
+                      height: 40,
+                    ),
+                    SizedBox(width: 16),
+                    Text(
+                      "История результатов",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 22,
+                          fontWeight: FontWeight.w600,
+                          shadows: [
+                            Shadow(
+                              blurRadius: 2.0,
+                              color: Colors.grey,
+                              offset: Offset(2.0, 2.0),
+                            )
+                          ]),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
