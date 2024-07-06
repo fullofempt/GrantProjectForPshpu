@@ -11,6 +11,9 @@ abstract class Routes {
   static const TEST = _Paths.TEST;
   static const SPRAVKA = _Paths.SPRAVKA;
   static const RAZRAB = _Paths.RAZRAB;
+  static const LETMALO = _Paths.LETMALO;
+  static const LETSREDNE = _Paths.LETSREDNE;
+  static const LETMNOGO = _Paths.LETMNOGO;
 }
 
 abstract class _Paths {
@@ -23,4 +26,7 @@ abstract class _Paths {
   static const TEST = '/test';
   static const SPRAVKA = '/spravka';
   static const RAZRAB = '/razrab';
+  static const LETMALO = '/letmalo';
+  static const LETSREDNE = '/letsredne';
+  static const LETMNOGO = '/letmnogo';
 }

@@ -1,5 +1,11 @@
 import 'package:get/get.dart';
 
+import '../modules/letmalo/bindings/letmalo_binding.dart';
+import '../modules/letmalo/views/letmalo_view.dart';
+import '../modules/letmnogo/bindings/letmnogo_binding.dart';
+import '../modules/letmnogo/views/letmnogo_view.dart';
+import '../modules/letsredne/bindings/letsredne_binding.dart';
+import '../modules/letsredne/views/letsredne_view.dart';
 import '../modules/main/bindings/main_binding.dart';
 import '../modules/main/views/main_view.dart';
 import '../modules/razrab/bindings/razrab_binding.dart';
@@ -65,6 +71,21 @@ class AppPages {
       name: _Paths.RAZRAB,
       page: () => const RazrabView(),
       binding: RazrabBinding(),
+    ),
+    GetPage(
+      name: _Paths.LETMALO,
+      page: () => const LetmaloView(),
+      binding: LetmaloBinding(),
+    ),
+    GetPage(
+      name: _Paths.LETSREDNE,
+      page: () => const LetsredneView(),
+      binding: LetsredneBinding(),
+    ),
+    GetPage(
+      name: _Paths.LETMNOGO,
+      page: () => const LetmnogoView(),
+      binding: LetmnogoBinding(),
     ),
   ];
 }

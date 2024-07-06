@@ -59,7 +59,7 @@ class SpravkaView extends GetView<SpravkaController> {
                   shadowColor: Colors.grey,
                 ),
                 onPressed: () {
-                  // Get.toNamed(Routes.TASKS);
+                  Get.toNamed(Routes.LETMALO);
                 },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -97,7 +97,7 @@ class SpravkaView extends GetView<SpravkaController> {
                   shadowColor: Colors.grey,
                 ),
                 onPressed: () {
-                  // Get.toNamed(Routes.TASK2);
+                  Get.toNamed(Routes.LETSREDNE);
                 },
                 child: Center(
                   child: Row(
@@ -137,7 +137,7 @@ class SpravkaView extends GetView<SpravkaController> {
                   shadowColor: Colors.grey,
                 ),
                 onPressed: () {
-                  // Get.toNamed(Routes.TASK3);
+                  Get.toNamed(Routes.LETMNOGO);
                 },
                 child: Center(
                   child: Row(
