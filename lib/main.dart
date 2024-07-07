@@ -10,3 +10,4 @@ void main() {
     getPages: AppPages.routes,
   ));
 }
+

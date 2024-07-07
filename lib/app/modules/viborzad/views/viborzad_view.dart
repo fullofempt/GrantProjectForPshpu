@@ -62,13 +62,13 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("Math"),
+              onPressed: () => onCategorySelected("Задание 1"),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   SizedBox(width: 16),
                   Text(
-                    '1 Задание',
+                    'Задание 1',
                     style: TextStyle(
                         color: Color.fromARGB(255, 255, 255, 255),
                         fontSize: 22,
@@ -98,14 +98,14 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("Science"),
+              onPressed: () => onCategorySelected("Задание 2"),
               child: Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     SizedBox(width: 16),
                     Text(
-                      '2 Задание',
+                      'Задание 2',
                       style: TextStyle(
                           color: Color.fromARGB(255, 255, 255, 255),
                           fontSize: 22,
@@ -136,14 +136,14 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("History"),
+              onPressed: () => onCategorySelected("Задание 3"),
               child: Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     SizedBox(width: 16),
                     Text(
-                      '3 Задание',
+                      'Задание 3',
                       style: TextStyle(
                           color: Color.fromARGB(255, 255, 255, 255),
                           fontSize: 22,
