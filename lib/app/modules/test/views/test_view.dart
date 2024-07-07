@@ -170,7 +170,9 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "5 + 3 = 9?", "answer": true, "image": "assets/math2.png"},
         {"question": "5 + 3 = 9?", "answer": true, "image": "assets/math2.png"},
         {"question": "5 + 3 = 9?", "answer": true, "image": "assets/math2.png"},
-        {"question": "5 + 3 = 9?", "answer": true, "image": "assets/math2.png"}
+        {"question": "5 + 3 = 9?", "answer": true, "image": "assets/math2.png"},
+        {"question": "5 + 3 = 10?", "answer": true, "image": "assets/math2.png"},
+        {"question": "5 + 3 = 11?", "answer": true, "image": "assets/math2.png"}
       ],
       "Science": [
         {"question": "Земля круглая?", "answer": true, "image": "assets/science1.png"},
