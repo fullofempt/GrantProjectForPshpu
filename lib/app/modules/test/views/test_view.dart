@@ -36,7 +36,7 @@ class _TestScreenState extends State<TestScreen> {
   void _loadQuestions() {
     String jsonString = '''
     {
-      "Math": [
+      "Zadanie1": [
         {"question": "Повтори звук...", "answer": true, "image": "assets/tasks/А.png"},
         {"question": "Повтори звук...", "answer": true, "image": "assets/tasks/Б.png"},
         {"question": "Повтори звук...", "answer": true, "image": "assets/tasks/БЬ.png"},
@@ -84,7 +84,7 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Повтори звук...", "answer": true, "image": "assets/tasks/Ю.png"},
         {"question": "Повтори звук...", "answer": true, "image": "assets/tasks/Я.png"}
       ],
-      "Science": [
+      "Zadanie2": [
         {"question": "Собака", "answer": true, "image": "assets/task2/собака.png"},
         {"question": "Бабушка", "answer": true, "image": "assets/task2/бабушка.png"},
         {"question": "Белка", "answer": true, "image": "assets/task2/белка.png"},
@@ -132,7 +132,7 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Юбка", "answer": true, "image": "assets/task2/юбка.png"},
         {"question": "Яблоко", "answer": true, "image": "assets/task2/яблоко.png"}
       ],
-      "History": [
+      "Zadanie3": [
         {"question": "Повтори за мной слоги:", "answer": true, "image": "assets/task3/paba.png"},
         {"question": "Повтори за мной слоги:", "answer": true, "image": "assets/task3/САША.png"},
         {"question": "Повтори за мной слоги:", "answer": true, "image": "assets/task3/кагака.png"},

@@ -62,7 +62,7 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("Math"),
+              onPressed: () => onCategorySelected("Zadanie1"),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
@@ -98,7 +98,7 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("Science"),
+              onPressed: () => onCategorySelected("Zadanie2"),
               child: Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -136,7 +136,7 @@ class CategorySelectionScreen extends StatelessWidget {
                 elevation: 4,
                 shadowColor: Colors.grey,
               ),
-              onPressed: () => onCategorySelected("History"),
+              onPressed: () => onCategorySelected("Zadanie3"),
               child: Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,

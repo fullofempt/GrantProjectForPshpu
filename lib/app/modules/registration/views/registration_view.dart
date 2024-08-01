@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:testik/app/models/childModel.dart';
+import 'package:testik/app/models/taskModel.dart';
 import 'package:testik/app/routes/app_pages.dart';
 
 import '../controllers/registration_controller.dart';
@@ -19,6 +20,10 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   final _formKey = GlobalKey<FormState>();
   final _fullNameController = TextEditingController();
   final _ageController = TextEditingController();
+  List<Child> children = [];
+  List<TestResult> results = [];
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -134,9 +139,11 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         _fullNameController.text,
                         int.parse(_ageController.text),
                       ));
+                      
                       Navigator.pop(context);
                     }
                   },
+                  
                   child: Text(
                     "Регистрация",
                     style: TextStyle(
