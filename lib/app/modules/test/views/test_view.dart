@@ -154,9 +154,9 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Хлопни в ладоши столько раз, сколько звуков в слове:", "answer": true, "image": "assets/task3/КНИГА.png"},
         {"question": "Послушай звуки и составь из них слово:", "answer": true, "image": "assets/task3/СОК.png"},
         {"question": "Послушай звуки и составь из них слово:", "answer": true, "image": "assets/task3/РУКА.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/домдым1.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/столстул1.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/машинамалина1.png"}
+        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/domdim.png"},
+        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/stolstyl.png"},
+        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/mashinamalina.png"}
       ]
     }
     ''';

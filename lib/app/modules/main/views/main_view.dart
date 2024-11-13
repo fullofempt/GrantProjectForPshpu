@@ -235,7 +235,7 @@ class _MainScreenState extends State<MainScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Image.asset(
-                      'assets/images/yabloko.png',
+                      'assets/images/history.png',
                       width: 40,
                       height: 40,
                     ),
@@ -279,7 +279,7 @@ class _MainScreenState extends State<MainScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Image.asset(
-                      'assets/images/yabloko.png',
+                      'assets/images/Info.png',
                       width: 40,
                       height: 40,
                     ),
@@ -322,11 +322,11 @@ class _MainScreenState extends State<MainScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Image.asset(
-                      'assets/images/yabloko.png',
-                      width: 40,
-                      height: 40,
-                    ),
+                    // Image.asset(
+                    //   'assets/images/yabloko.png',
+                    //   width: 40,
+                    //   height: 40,
+                    // ),
                     SizedBox(width: 16),
                     Text(
                       "Разработчики",
