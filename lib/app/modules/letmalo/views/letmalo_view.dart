@@ -41,143 +41,169 @@ class LetmaloView extends GetView<LetmaloController> {
           ),
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Center(
-          child: Column(
-            children: [
-              Text(
-                '5-6 лет',
-                style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 255, 255, 255),
-                    shadows: [
-                      Shadow(
-                        blurRadius: 2.0,
-                        color: Colors.grey,
-                        offset: Offset(2.0, 1.0),
-                      )
-                    ]),
-              ),
-              SizedBox(height: 16),
-              Table(
-                border: TableBorder.all(),
-                columnWidths: const {
-                  0: FlexColumnWidth(1.5),
-                  1: FlexColumnWidth(1),
-                  2: FlexColumnWidth(3),
-                },
-                children: [
-                  TableRow(
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 255, 206, 148)),
-                    children: [
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Уровень речевого развития',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Center(
+            child: Column(
+              children: [
+                Text(
+                  '5-6 лет',
+                  style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 255, 255, 255),
+                      shadows: [
+                        Shadow(
+                          blurRadius: 2.0,
+                          color: Colors.grey,
+                          offset: Offset(2.0, 1.0),
+                        )
+                      ]),
+                ),
+                SizedBox(height: 16),
+                Table(
+                  border: TableBorder.all(),
+                  columnWidths: const {
+                    0: FlexColumnWidth(1.5),
+                    1: FlexColumnWidth(1),
+                    2: FlexColumnWidth(3),
+                  },
+                  children: [
+                    TableRow(
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 255, 206, 148)),
+                      children: [
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Уровень речевого развития',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                           ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Баллы',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Баллы',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                           ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Рекомендации',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Рекомендации',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                           ),
                         ),
-                      ),
-                    ],
-                  ),
-                  TableRow(
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(253, 255, 243, 237)),
-                    children: [
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('Низкий'),
+                      ],
+                    ),
+                    TableRow(
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(253, 255, 243, 237)),
+                      children: [
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Низкий'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('21-42 балла'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('0-77 балла'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                              'Ребёнок должен быть обследован психоневрологом. Требуются консультации дефектолога, логопеда, коррекционно-развивающие занятия.'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                                'Ребенок должен быть обследован психоневрологом или невропатологом. Требуются консультации дефектолога, логопеда, коррекционно-развивающие занятия.  Необходимо заключение ПМПК для выбора бразовательного маршрута. РКИ '),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                  TableRow(
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(253, 255, 243, 237)),
-                    children: [
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('Средний'),
+                      ],
+                    ),
+                    TableRow(
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(253, 255, 243, 237)),
+                      children: [
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Средний'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('43-105 баллов'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('78-130 баллов'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('Рекомендуются развивающие занятия.'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Требуются консультации дефектолога, логопеда, коррекционно-развивающие занятия. Необходимо заключение ПМПК для точного выбора образовательного маршрута. РКИ '),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                  TableRow(
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(253, 255, 243, 237)),
-                    children: [
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('Высокий'),
+                      ],
+                    ),
+                    TableRow(
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(253, 255, 243, 237)),
+                      children: [
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Высокий'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('106 баллов'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('131-157 баллов'),
+                          ),
                         ),
-                      ),
-                      Center(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text('Не нуждается в логопедической помощи.'),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Обучение по программе, соответствующей возрасту. Нуждается в логопедической помощи для совершенствования навыков речевого развития на русском языке. '),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ],
+                      ],
+                    ),
+                    TableRow(
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(253, 255, 243, 237)),
+                      children: [
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Максимальный'),
+                          ),
+                        ),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('158 баллов'),
+                          ),
+                        ),
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Развивающие занятие Обучение по программе, соответствующей возрасту '),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),

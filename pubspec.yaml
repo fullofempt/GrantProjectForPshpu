@@ -80,6 +80,7 @@ flutter:
     - assets/tasks/
     - assets/task2/
     - assets/task3/
+    - assets/task4/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
