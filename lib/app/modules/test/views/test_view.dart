@@ -166,23 +166,14 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Посмотри и покажи, где автобус", "answer": true, "image": "assets/task4/задание.png"},
         {"question": "Посмотри и покажи, где кошка", "answer": true, "image": "assets/task4/задание.png"},
         {"question": "Посмотри и покажи, где мама", "answer": true, "image": "assets/task4/задание.png"},
-        {"question": "Повтори за мной слова (без опоры на картинки):", "answer": true, "image": "assets/task4/БАБУШКА.png"},
-        {"question": "Повтори за мной слова (без опоры на картинки):", "answer": true, "image": "assets/task4/ТРАНСПОРТ.png"},
-        {"question": "Повтори за мной слова (без опоры на картинки):", "answer": true, "image": "assets/task3/ТЕЛЕВИЗОР.png"},
-        {"question": "Повтори за мной предложения:", "answer": true, "image": "assets/task3/КОШКАЛОВИТМЫШКУ.png"},
-        {"question": "Повтори за мной предложения:", "answer": true, "image": "assets/task3/ЗОХИДГОНИТКОЗУ.png"},
-        {"question": "Повтори за мной предложения:", "answer": true, "image": "assets/task3/ЛОЛАРУХВАРИТПЛОВ.png"},
-        {"question": "Назови первый звук в слове:", "answer": true, "image": "assets/task3/УТКА.png"},
-        {"question": "Назови первый звук в слове:", "answer": true, "image": "assets/task3/КОШКА.png"},
-        {"question": "Назови последний звук в слове:", "answer": true, "image": "assets/task3/МАК.png"},
-        {"question": "Назови последний звук в слове:", "answer": true, "image": "assets/task3/ВОДА.png"},
-        {"question": "Хлопни в ладоши столько раз, сколько звуков в слове:", "answer": true, "image": "assets/task3/ДОМ.png"},
-        {"question": "Хлопни в ладоши столько раз, сколько звуков в слове:", "answer": true, "image": "assets/task3/КНИГА.png"},
-        {"question": "Послушай звуки и составь из них слово:", "answer": true, "image": "assets/task3/СОК.png"},
-        {"question": "Послушай звуки и составь из них слово:", "answer": true, "image": "assets/task3/РУКА.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/domdim.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/stolstyl.png"},
-        {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/mashinamalina.png"}
+        {"question": "Посмотри и покажи, где одежда", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, где посуда", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, где животные", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
+
       ]
     }
     ''';
