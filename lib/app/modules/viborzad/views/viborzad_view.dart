@@ -161,44 +161,6 @@ class CategorySelectionScreen extends StatelessWidget {
               ),
             ),
           ),
-          // SizedBox(height: 20),
-          // Container(
-          //   width: 350,
-          //   height: 100,
-          //   child: ElevatedButton(
-          //     style: ElevatedButton.styleFrom(
-          //       shape: RoundedRectangleBorder(
-          //         borderRadius: BorderRadius.circular(20),
-          //       ),
-          //       backgroundColor: Color.fromARGB(255, 255, 206, 148),
-          //       elevation: 4,
-          //       shadowColor: Colors.grey,
-          //     ),
-          //     onPressed: () => onCategorySelected("Zadanie4"),
-          //     child: Center(
-          //       child: Row(
-          //         mainAxisAlignment: MainAxisAlignment.center,
-          //         children: <Widget>[
-          //           SizedBox(width: 16),
-          //           Text(
-          //             '4 Задание',
-          //             style: TextStyle(
-          //                 color: Color.fromARGB(255, 255, 255, 255),
-          //                 fontSize: 22,
-          //                 fontWeight: FontWeight.w600,
-          //                 shadows: [
-          //                   Shadow(
-          //                     blurRadius: 2.0,
-          //                     color: Colors.grey,
-          //                     offset: Offset(1.0, 1.0),
-          //                   )
-          //                 ]),
-          //           ),
-          //         ],
-          //       ),
-          //     ),
-          //   ),
-          // ),
           SizedBox(height: 20),
           Container(
             width: 350,
@@ -221,23 +183,86 @@ class CategorySelectionScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      title: Text("Выберите возраст"),
+                      backgroundColor: const Color.fromARGB(255, 198, 218, 157),
+                      title: Text(
+                        "Выберите возраст",
+                        style: TextStyle(
+                            color: const Color.fromARGB(255, 255, 255, 255),
+                            shadows: [
+                              Shadow(
+                                blurRadius: 2.0,
+                                color: Colors.grey,
+                                offset: Offset(1.0, 1.0),
+                              )
+                            ]),
+                      ),
                       content: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor:
+                                  Color.fromARGB(255, 255, 206, 148),
+                              foregroundColor: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                            ),
                             onPressed: () => onCategorySelected("Zadanie4.1"),
-                            child: Text("3-6 лет"),
+                            child: Text(
+                              "3-6 лет",
+                              style: TextStyle(shadows: [
+                                Shadow(
+                                  blurRadius: 2.0,
+                                  color: Colors.grey,
+                                  offset: Offset(1.0, 1.0),
+                                )
+                              ]),
+                            ),
                           ),
                           SizedBox(height: 10),
                           ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor:
+                                  Color.fromARGB(255, 255, 206, 148),
+                              foregroundColor: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                            ),
                             onPressed: () => onCategorySelected("Zadanie4.2"),
-                            child: Text("6-7 лет"),
+                            child: Text(
+                              "6-7 лет",
+                              style: TextStyle(shadows: [
+                                Shadow(
+                                  blurRadius: 2.0,
+                                  color: Colors.grey,
+                                  offset: Offset(1.0, 1.0),
+                                )
+                              ]),
+                            ),
                           ),
                           SizedBox(height: 10),
                           ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor:
+                                  Color.fromARGB(255, 255, 206, 148),
+                              foregroundColor: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                            ),
                             onPressed: () => onCategorySelected("Zadanie4.3"),
-                            child: Text("7-9 лет"),
+                            child: Text(
+                              "7-9 лет",
+                              style: TextStyle(shadows: [
+                                Shadow(
+                                  blurRadius: 2.0,
+                                  color: Colors.grey,
+                                  offset: Offset(1.0, 1.0),
+                                )
+                              ]),
+                            ),
                           ),
                         ],
                       ),
