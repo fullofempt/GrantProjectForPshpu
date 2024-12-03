@@ -158,7 +158,7 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/stolstyl.png"},
         {"question": "Назови слова по картинкам и скажи, какими звуками они отличаются:", "answer": true, "image": "assets/task3/mashinamalina.png"}
       ],
-      "Zadanie4": [
+      "Zadanie4.1": [
         {"question": "Посмотри и покажи, где платье", "answer": true, "image": "assets/task4/задание.png"},
         {"question": "Посмотри и покажи, где стул", "answer": true, "image": "assets/task4/задание.png"},
         {"question": "Посмотри и покажи, где хлеб", "answer": true, "image": "assets/task4/задание.png"},
@@ -173,7 +173,21 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
         {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
         {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
-
+      ],
+      "Zadanie4.2": [
+        {"question": "Посмотри и покажи, где одежда", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, где посуда", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, где животные", "answer": true, "image": "assets/task4/задание8-10.png"},
+        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
+      ],
+      "Zadanie4.3": [
+        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
+        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
       ]
     }
     ''';
@@ -315,7 +329,7 @@ class _TestScreenState extends State<TestScreen> {
                     "Неправильно",
                     style: TextStyle(
                         color: Color.fromARGB(255, 255, 255, 255),
-                        fontSize: 22,
+                        // fontSize: 22,
                         fontWeight: FontWeight.w600,
                         shadows: [
                           Shadow(
@@ -342,7 +356,7 @@ class _TestScreenState extends State<TestScreen> {
                     "Правильно",
                     style: TextStyle(
                         color: Color.fromARGB(255, 255, 255, 255),
-                        fontSize: 22,
+                        // fontSize: 22,
                         fontWeight: FontWeight.w600,
                         shadows: [
                           Shadow(
