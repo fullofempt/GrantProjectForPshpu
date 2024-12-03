@@ -175,19 +175,47 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
       ],
       "Zadanie4.2": [
-        {"question": "Посмотри и покажи, где одежда", "answer": true, "image": "assets/task4/задание8-10.png"},
-        {"question": "Посмотри и покажи, где посуда", "answer": true, "image": "assets/task4/задание8-10.png"},
-        {"question": "Посмотри и покажи, где животные", "answer": true, "image": "assets/task4/задание8-10.png"},
-        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
+        {"question": "Посмотри и покажи, где брюки/шаровары", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где кресло", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где картофель/картошка", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где поезд", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где медведь", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где папа", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где одежда", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где посуда", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где животные", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где мебель", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где семья", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
+        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, что летит", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, кто играет в футбол", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где она круглая, твёрдая, хрупкая", "answer": true, "image": "assets/task4/4задание6-7лет.png"},
+        {"question": "Посмотри и покажи, что летит", "answer": true, "image": "assets/task4/4задание6-7лет.png"}
       ],
       "Zadanie4.3": [
-        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто бежит", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто идёт", "answer": true, "image": "assets/task4/задание11-14.png"},
-        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/задание11-14.png"}
+        {"question": "Посмотри и покажи, где утро", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где карандаш", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где яйцо", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где метро", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где верблюд", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где художник", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где рука", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где продукты", "answer": true, "image": "assets/task4/2задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где транспорт", "answer": true, "image": "assets/task4/2задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где животные", "answer": true, "image": "assets/task4/2задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где профессии", "answer": true, "image": "assets/task4/2задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где части тела", "answer": true, "image": "assets/task4/2задание7-9лет.png"},
+        {"question": "Посмотри и покажи, что едет", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, кто бежит/скачет", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, кто играет на сцене и в кино", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, кто лечит", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, что летит", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, кто рисует", "answer": true, "image": "assets/task4/3задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где большая, коричневая, быстрая", "answer": true, "image": "assets/task4/4задание7-9лет.png"},
+        {"question": "Посмотри и покажи, где он большой, быстрый, наземный", "answer": true, "image": "assets/task4/4задание7-9лет.png"}
       ]
     }
     ''';
