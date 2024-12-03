@@ -179,6 +179,7 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Посмотри и покажи, где кресло", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
         {"question": "Посмотри и покажи, где картофель/картошка", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
         {"question": "Посмотри и покажи, где поезд", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
+        {"question": "Посмотри и покажи, где тарелка", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
         {"question": "Посмотри и покажи, где медведь", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
         {"question": "Посмотри и покажи, где папа", "answer": true, "image": "assets/task4/1задание6-7лет.png"},
         {"question": "Посмотри и покажи, где одежда", "answer": true, "image": "assets/task4/2задание6-7лет.png"},
