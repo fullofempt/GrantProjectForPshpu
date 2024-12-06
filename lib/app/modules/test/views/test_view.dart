@@ -194,7 +194,7 @@ class _TestScreenState extends State<TestScreen> {
         {"question": "Посмотри и покажи, что летит", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
         {"question": "Посмотри и покажи, кто играет в футбол", "answer": true, "image": "assets/task4/3задание6-7лет.png"},
         {"question": "Посмотри и покажи, где она круглая, твёрдая, хрупкая", "answer": true, "image": "assets/task4/4задание6-7лет.png"},
-        {"question": "Посмотри и покажи, что летит", "answer": true, "image": "assets/task4/4задание6-7лет.png"}
+        {"question": "Посмотри и покажи, где он круглый, твёрдый, съедобный", "answer": true, "image": "assets/task4/4задание6-7лет.png"}
       ],
       "Zadanie4.3": [
         {"question": "Посмотри и покажи, где утро", "answer": true, "image": "assets/task4/1задание7-9лет.png"},
