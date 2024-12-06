@@ -41,10 +41,82 @@ class RazrabView extends GetView<RazrabController> {
           ),
         ),
       ),
-      body: const Center(
-        child: Text(
-          'developers: pspu Team',
-          style: TextStyle(fontSize: 20),
+     body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const Text(
+                'ФГБОУ ВО "Пермский государственный гуманитарно-педагогический университет"',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 16.0),
+              const Text(
+                'Содержание диагностики разработано под руководством:',
+                style: TextStyle(fontSize: 15, height: 1.5),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8.0),
+              const Text(
+                'к.ф.н., О.П. Криницына',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 16.0),
+              const Text(
+                'Коллектив авторов:',
+                style: TextStyle(fontSize: 15, height: 1.5),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8.0),
+              const Text(
+                'к.п.н. О.Н. Гончарова-Тверская',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const Text(
+                'к.п.н. Т.Н. Гирилюк',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const Text(
+                'Е.Г. Кряжевских',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 16.0),
+               const Text(
+                'Программное решение создано под руководством:',
+                style: TextStyle(fontSize: 15, height: 1.5),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8.0),
+              const Text(
+                'Л.Ю. Худорожков',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 16.0),
+              const Text(
+                'Коллектив разработчиков:',
+                style: TextStyle(fontSize: 15, height: 1.5),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8.0),
+              const Text(
+                'А.Р. Шлыков',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+              const Text(
+                'А.Н. Веприкова',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
       ),
     );
